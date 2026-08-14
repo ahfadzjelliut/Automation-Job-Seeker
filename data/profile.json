@@ -1,12 +1,12 @@
 {
-  "name":"",
-  "place_birth":"",
-  "data_birth":"",
-  "last_education":"",
-  "address":"",
-  "phone_number":"",
-  "email":"",
-  "state":"",
-  "skills":[],
+  "name":"Ani",
+  "place_birth":"Banjar",
+  "data_birth":"2 Jan 2003",
+  "last_education":"S1 Manajemet",
+  "address":"Banjar",
+  "phone_number":"0856716253",
+  "email":"ani@gmail.com",
+  "state":"Fresh Graduate",
+  "skills":["Problem Solving","Communication","Creativity","Analyst"],
   "experience":[]
 }

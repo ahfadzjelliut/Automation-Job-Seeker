@@ -1,8 +1,24 @@
-{
-  "companies":"",
-  "position":"",
-  "description":"",
-  "location":"",
-  "requirement":"",
+[
+  {
+  "companies":"Pt Arak",
+  "position":"Staff",
+  "description":"Doing Staff",
+  "location":"Banjar",
+  "requirement":["Communication","Problem Solving"],
+  "require_doc":""
+},{
+  "companies":"Pt Jiyuni",
+  "position":"Admin",
+  "description":"Doing Analyst",
+  "location":"Banjar",
+  "requirement":["Analyst","Development"],
+  "require_doc":""
+},{
+  "companies":"Pt Kuro",
+  "position":"Cleaning Service",
+  "description":"Cleaning Around",
+  "location":"Banjar",
+  "requirement":["Cleaning","Diciple"],
   "require_doc":""
 }
+]
