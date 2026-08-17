@@ -2,6 +2,8 @@ from pathlib import Path
 import json
 
 BASE_DIR = Path(__file__).parent
+APPLY_TRESHOLD = 70
+CONSIDER_THRESHOLD = 50
 
 profil_path = BASE_DIR / "data" / "profile.json"
 job_path = BASE_DIR / "data" / "jobs.json"
@@ -17,9 +19,9 @@ print("Nama : ",profil["name"])
 print("Skill : ",profil["skills"])
 
 def get_decision(score):
-    if score >= 70:
+    if score >= APPLY_TRESHOLD:
         return "Apply"
-    elif score >= 50:
+    elif score >= CONSIDER_THRESHOLD:
         return "Consider"
     else:
         return "Skip"
@@ -82,3 +84,15 @@ for index,job in enumerate(results,start=1):
         f"{job['score']:.0f} % "
         f"{job['decision']}"
     )
+
+apply_jobs = [ job for job in results if job["decision"] == "Apply"]
+
+print("\n=== Apply List ===")
+
+for job in apply_jobs:
+    print(job["company"],
+        "-",
+        job["position"],
+        "-",
+        f"{job['score']:.0f} %"
+        )
