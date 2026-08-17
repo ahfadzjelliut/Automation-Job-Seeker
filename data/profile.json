@@ -2,11 +2,14 @@
   "name":"Ani",
   "place_birth":"Banjar",
   "data_birth":"2 Jan 2003",
+  "campus":"Politeknik",
   "last_education":"S1 Manajemet",
   "address":"Banjar",
+  "place_city":"Banjarmasin",
+  "state_place":"Kalimantan Selatan",
   "phone_number":"0856716253",
   "email":"ani@gmail.com",
   "state":"Fresh Graduate",
   "skills":["Problem Solving","Communication","Creativity","Analyst"],
-  "experience":[]
+  "experience_tell":[]
 }

@@ -1,0 +1,32 @@
+{place_city} , {date_now}
+
+Perihal : Lamaran Kerja
+
+Yth. HRD {companies}
+{place_city}, {state_place}
+
+di tempat
+
+Dengan hormat,
+Berdasarkan informasi yang saya dapatkan dari internet, bahwa perusahaan yang Bapak/Ibu pimpin, sedang membutuhkan seorang {position} dengan skill dan kemampuan yang saya miliki, saya bermaksud untuk melamar di posisi tersebut.
+Saya yang bertanda tangan di bawah ini:
+nama	:	{name}
+tempat, tanggal lahir	:	{place_birth}, {data_birth}
+pendidikan terakhir	:	{campus}, {last_education}
+alamat	:	{address}
+nomor telepon	:	{phone_number}
+email	:	{email}
+status	:	{state}
+
+{experience_tell}
+
+Sebagai bahan pertimbangan Bapak/Ibu, bersama ini saya lampirkan:
+{require_doc}
+
+Demikian surat lamaran ini saya buat. Dengan lamaran ini, saya berharap bisa menjadi bagian dari {companies}. Terima kasih atas perhatian dan waktunya.
+
+Hormat saya,
+
+
+
+{name}
