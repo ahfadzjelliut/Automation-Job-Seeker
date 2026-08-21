@@ -1,12 +1,14 @@
 from pathlib import Path
 import json
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 APPLY_TRESHOLD = 70
 CONSIDER_THRESHOLD = 50
+DATA_DIR = BASE_DIR / "data"
 
-profil_path = BASE_DIR / "data" / "profile.json"
-job_path = BASE_DIR / "data" / "jobs.json"
+
+profil_path = DATA_DIR / "profile.json"
+job_path = DATA_DIR / "jobs.json"
 
 with open(profil_path,"r",encoding="utf-8") as file:
     profil = json.load(file)
